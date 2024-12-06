@@ -2,7 +2,7 @@ from ultralytics import YOLO
 import cv2
 import math
 # start webcam
-cap = cv2.VideoCapture(3) # if you want ot try an external camera, try other values for his 0
+cap = cv2.VideoCapture(0) # if you want to try an external camera, try other values for his 0
 cap.set(3, 640)
 cap.set(4, 480)
 
@@ -12,7 +12,7 @@ cap.set(4, 480)
 # cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 1080)
 
 
-# model
+# select model
 # model = YOLO("yolo-Weights/yolo11x.pt")    # Xtra large
 # model = YOLO("yolo-Weights/yolo11l.pt")    # Large
 model = YOLO("yolo-Weights/yolo11m.pt")    # Medium

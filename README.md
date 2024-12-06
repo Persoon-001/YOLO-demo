@@ -21,7 +21,7 @@ To select the model you need to change the uncommented line on lines 16 tot 20.
 
 To change the camera from the default (id = 0) webcam, you need to change the id on line 5 untill you find the correct id.
 This can take a bit.
-(These seem to be relatively low values, I once had 2 and an other time 4 for my external camera.)
+(These seem to be relatively low values, I once had 2 and another time 3 for my external camera.)
 
 ## Change resolution:
 
