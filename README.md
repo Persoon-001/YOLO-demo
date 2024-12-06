@@ -5,7 +5,7 @@
 
 ##  see following website for explanation of this demo
 
-https://dipankarmedh1.medium.com/real-time-object-detection-with-yolo-and-webcam-enhancing-your-computer-vision-skills-861b97c78993
+[medium.com](https://dipankarmedh1.medium.com/real-time-object-detection-with-yolo-and-webcam-enhancing-your-computer-vision-skills-861b97c78993)
 
 ## Install the requirements:
 
