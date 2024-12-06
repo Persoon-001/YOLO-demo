@@ -3,9 +3,9 @@
 # YOLO demo
 
 
-##  see following website for explanation of this demo
+##  See following website for the explanation of this demo
 
-[medium.com](https://dipankarmedh1.medium.com/real-time-object-detection-with-yolo-and-webcam-enhancing-your-computer-vision-skills-861b97c78993)
+--> [medium.com](https://dipankarmedh1.medium.com/real-time-object-detection-with-yolo-and-webcam-enhancing-your-computer-vision-skills-861b97c78993)
 
 ## Install the requirements:
 
@@ -29,6 +29,15 @@ This is possible, although my webcam was not capable of more than 640 by 480 at 
 and my USB webcam does go to 1080p, but only at about 5 FPS.
 You can uncomment lines 11 and 12 to manually experiment with higher resolutions.
 Be aware that my bottleneck seems to be the USB camera and the bitrate available over USB, your millage will vary.
+
+## About the refreshrate:
+
+The refreshrate is selected by the opencv-python library, and if you get stuck on a low refreshrate,
+just make sure you have enough light available.
+If that's not the case it is possible that the camera can't deliver a higher framerate or
+that the connection is limited by USB speeds.
+
+
 
 ## Troubleshooting: checking camera compatibility
 
